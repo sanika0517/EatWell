@@ -10,7 +10,6 @@
         android:id="@+id/navigation_dashboard"
         android:icon="@drawable/baseline_area_chart_24"
         android:title="BMI" />
-
     <item
         android:id="@+id/navigation_notes"
         android:icon="@drawable/baseline_edit_document_24"

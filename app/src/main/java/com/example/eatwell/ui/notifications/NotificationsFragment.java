@@ -10,6 +10,7 @@ import android.widget.ArrayAdapter;
 import android.widget.Toast;
 
 import androidx.annotation.NonNull;
+import androidx.core.widget.NestedScrollView;
 import androidx.fragment.app.Fragment;
 
 import com.example.eatwell.LoginActivity; // Ensure you have a login activity
@@ -47,6 +48,10 @@ public class NotificationsFragment extends Fragment {
         setupDropdowns();
         loadProfileData();
         setupButtons();
+
+        NestedScrollView scrollView = binding.nestedScrollView; // or findViewById(R.id.scrollView)
+        scrollView.setVerticalScrollBarEnabled(false);
+        scrollView.setOverScrollMode(View.OVER_SCROLL_NEVER);
 
         return root;
     }

@@ -53,4 +53,16 @@ dependencies {
     dependencies {
         implementation libs.cardview
     }
+    dependencies {
+        implementation libs.volley // For making API requests
+        implementation libs.gson // For JSON parsing
+    }
+    dependencies {
+        implementation libs.glide
+        annotationProcessor libs.compiler
+    }
+    dependencies {
+        implementation libs.okhttp
+    }
+
 }

@@ -15,6 +15,7 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.cardview.widget.CardView;
+import androidx.core.widget.NestedScrollView;
 import androidx.fragment.app.Fragment;
 
 import com.example.eatwell.NotesActivity;
@@ -75,6 +76,11 @@ public class NotesFragment extends Fragment {
         tvNoEntries = view.findViewById(R.id.tvNoEntries);
         btnBack = view.findViewById(R.id.btnBack);
         FloatingActionButton fab = view.findViewById(R.id.fab_add);
+
+
+        NestedScrollView scrollView = view.findViewById(R.id.nestedScrollView); // or findViewById(R.id.scrollView)
+        scrollView.setVerticalScrollBarEnabled(false);
+        scrollView.setOverScrollMode(View.OVER_SCROLL_NEVER);
 
         // Set up Firebase
         auth = FirebaseAuth.getInstance();

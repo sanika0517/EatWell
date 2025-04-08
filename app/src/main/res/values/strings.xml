@@ -25,4 +25,6 @@
     <string name="success_signup">Account created successfully</string>
     <string name="supabase_url">https://your-project.supabase.co</string>
     <string name="supabase_key">your-supabase-anon-key</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

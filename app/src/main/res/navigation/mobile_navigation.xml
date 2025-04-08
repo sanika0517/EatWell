@@ -29,4 +29,11 @@
         android:label="Notes"
         tools:layout="@layout/fregment_notes" />
 
+    <fragment
+        android:id="@+id/navigation_diets"
+        android:name="com.example.eatwell.ui.diets.DietFragment"
+        android:label="Notes"
+        tools:layout="@layout/fragment_diet" />
+
+
 </navigation>
