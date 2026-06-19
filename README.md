@@ -7,6 +7,11 @@ EatWell is an Android-based diet and nutrition management application developed 
 The application provides customized recommendations for weight loss, weight gain, and weight maintenance while helping users monitor their daily nutritional intake.
 
 ---
+## Download
+
+Download the latest APK from the Releases section:
+
+https://github.com/sanika0517/EatWell/releases
 
 ## Features
 
