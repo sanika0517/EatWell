@@ -17,6 +17,8 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.cardview.widget.CardView;
 import androidx.core.widget.NestedScrollView;
 import androidx.fragment.app.Fragment;
+import androidx.navigation.NavController;
+import androidx.navigation.fragment.NavHostFragment;
 
 import com.example.eatwell.NotesActivity;
 import com.example.eatwell.R;
@@ -104,6 +106,8 @@ public class NotesFragment extends Fragment {
             Intent intent = new Intent(getActivity(), NotesActivity.class);
             startActivity(intent);
         });
+        NavController navController = NavHostFragment.findNavController(this);
+        btnBack.setOnClickListener(v -> navController.popBackStack());
 
         // Load all entries
         loadAllEntries();

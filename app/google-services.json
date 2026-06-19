@@ -1,14 +1,32 @@
 {
   "project_info": {
-    "project_number": "462556415722",
-    "firebase_url": "https://farmer-s-roots-default-rtdb.firebaseio.com",
-    "project_id": "farmer-s-roots",
-    "storage_bucket": "farmer-s-roots.appspot.com"
+    "project_number": "188729423212",
+    "project_id": "eatwell-449be",
+    "storage_bucket": "eatwell-449be.firebasestorage.app"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:462556415722:android:9453f7f6db4b2deac8f993",
+        "mobilesdk_app_id": "1:188729423212:android:ffced1f63ec6416b1b2f49",
+        "android_client_info": {
+          "package_name": "com.example.EatWell"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC1b3UXGvfmG7eWteIHw-k3sLed6IfOKnc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:188729423212:android:d55d70706d74f99d1b2f49",
         "android_client_info": {
           "package_name": "com.example.eatwell"
         }
@@ -16,7 +34,7 @@
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyBKkmL9SrWrr9nnchzpf1Gbnh-6apWpUY4"
+          "current_key": "AIzaSyC1b3UXGvfmG7eWteIHw-k3sLed6IfOKnc"
         }
       ],
       "services": {

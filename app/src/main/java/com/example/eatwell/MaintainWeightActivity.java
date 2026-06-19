@@ -2,6 +2,7 @@ package com.example.eatwell;
 
 import android.os.Bundle;
 import android.view.View;
+import android.widget.ImageButton;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -25,6 +26,8 @@ public class MaintainWeightActivity extends AppCompatActivity {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
+        ImageButton backButton = findViewById(R.id.btnBack);
+        backButton.setOnClickListener(v -> finish());
 
         NestedScrollView scrollView = findViewById(R.id.nestedScrollView);
         scrollView.setVerticalScrollBarEnabled(false);

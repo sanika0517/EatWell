@@ -2,6 +2,7 @@ package com.example.eatwell;
 
 import android.os.Bundle;
 import android.view.View;
+import android.widget.ImageButton;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -29,6 +30,9 @@ public class GainWeightActivity extends AppCompatActivity {
         NestedScrollView scrollView = findViewById(R.id.nestedScrollView);
         scrollView.setVerticalScrollBarEnabled(false);
         scrollView.setOverScrollMode(View.OVER_SCROLL_NEVER);
+
+        ImageButton backButton = findViewById(R.id.btnBack);
+        backButton.setOnClickListener(v -> finish());
 
         // Hide/show ActionBar on scroll
         scrollView.setOnScrollChangeListener((NestedScrollView.OnScrollChangeListener) (v, scrollX, scrollY, oldScrollX, oldScrollY) -> {

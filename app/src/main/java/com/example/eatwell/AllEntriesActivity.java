@@ -87,6 +87,8 @@ public class AllEntriesActivity extends AppCompatActivity {
                 finish();
             }
         });
+        ImageButton backButton = findViewById(R.id.btnBack);
+        backButton.setOnClickListener(v -> finish());
 
         // Load all entries
         loadAllEntries();

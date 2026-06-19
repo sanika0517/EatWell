@@ -76,6 +76,8 @@ public class NotesActivity extends AppCompatActivity {
             finish();
             return;
         }
+        ImageButton backButton = findViewById(R.id.btnBack);
+        backButton.setOnClickListener(v -> finish());
 
         // Set up current date
         selectedDate = Calendar.getInstance();

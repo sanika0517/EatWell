@@ -61,11 +61,6 @@ public class DashboardFragment extends Fragment {
 
     private void setupUI() {
         binding.btnBack.setOnClickListener(v -> requireActivity().onBackPressed());
-        binding.btnContinue.setOnClickListener(v -> {
-            // Handle continue button click - navigate to next screen
-            // For example:
-            // Navigation.findNavController(v).navigate(R.id.action_dashboardFragment_to_nextFragment);
-        });
     }
 
     private void showLoadingOverlay(boolean show) {
