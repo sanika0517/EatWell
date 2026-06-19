@@ -146,9 +146,9 @@ Run Application
 
 ---
 
-## Contributors
+## Developer
 
-* Sanika Rai
+Sanika Rai
 
 ---
 
